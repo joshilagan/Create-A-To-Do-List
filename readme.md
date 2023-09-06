@@ -10,3 +10,5 @@ If you are new in Web Development and learning VanillaJS, feel free to use this 
 
 Wishing you the all the best! 
 -josh9jutsu
+
+![createatodolist](https://github.com/joshilagan/createatodolist/assets/131636608/a56d5939-b324-4d5e-8be3-bb41ced5a1df)
