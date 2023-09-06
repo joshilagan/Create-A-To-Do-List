@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="todo-container">
+    <header>
+        <img class="clipboard" src="./img/clipboard.png" alt="" />
+        <p>Create a To do List</p>
+    </header>
+    <form id="item-form">
+        <div class="inputs-buttons-div">
+            <input 
+            type="text"
+            class="form-input"
+            id="todo-input"
+            name="todo"
+            placeholder="Enter To Do Item">         
+        </div>
+        <div class="inputs-buttons-div">
+            <button type="submit" class="toDoBtn">Add To Do</button>
+            <button type="submit" class="toDoBtn">Search To Do</button>
+            <button id="clear" class="toDoBtn">Clear To Do List</button>
+        </div>
+    </form>
+    <ul id="item-list">
+        <li>
+          Buy Some Milk
+          <button class="edit-button btn">
+            <span class="edit">Edit</span>
+          </button>
+        </li>
+        <li>
+          Buy Cat Food
+          <button class="edit-button btn">
+            <span class="edit">Edit</span>
+          </button>
+        </li>
+        <li>
+          Wash the Dishes
+          <button class="edit-button btn">
+            <span class="edit">Edit</span>
+          </button>
+        </li>
+        <li>
+          Feed the Cat 
+          <div class="save-delete-container">
+            <button class="save-delete save-button btn">
+              <span class="save">Save</span>
+            </button>
+            <button class="save-delete btn">
+              <span class="delete">Delete</span>
+            </button>
+          </div>  
+        </li>
+      </ul>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>
