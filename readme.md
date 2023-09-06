@@ -2,7 +2,7 @@
 
 **Description:**
 
-The "Create a To Do List Playground" was built to enhance a students freshly acquired skills in VanillaJS. 
+The "Create a To Do List Playground" was built to enhance and strengthen a Web Dev Student's freshly acquired skills in VanillaJS. 
 
 I've built and used this "Create a To Do List Playground" which enhanced my skills in VanillaJS especially in Variables and Datatypes, Arrays and Objects, Functions, Logic Control Flow, Iterations, DOM and Event Listeners.
 
